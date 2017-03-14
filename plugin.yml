@@ -1,0 +1,11 @@
+name: AutoChat
+main: com.XiaoHuiHui.minecraft.plugin.AutoChat.ACMain
+version: '00.03.47'
+author: XiaoHuiHui
+commands:
+    autochat:
+        description: 可以自动判断关键词聊天的机器人。
+        usage: /autochat help
+        Permission: AutoChat.Admin
+        permission-message: 你没有<permission>的权限。
+        aliases: autoc
