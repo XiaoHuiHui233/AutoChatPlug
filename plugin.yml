@@ -2,6 +2,7 @@ name: AutoChat
 main: com.XiaoHuiHui.minecraft.plugin.AutoChat.ACMain
 version: '00.03.47'
 author: XiaoHuiHui
+depend: [Vault]
 commands:
     autochat:
         description: 可以自动判断关键词聊天的机器人。
